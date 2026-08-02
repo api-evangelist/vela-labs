@@ -1,7 +1,14 @@
 aid: vela-labs
 name: Vela Labs
-description: Vela Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Vela Labs, Inc. (Vela, formerly Hive) is a San Francisco company founded
+  in 2018 by Justin Killian and Jason Abaluck that provides an AI-driven platform
+  helping eCommerce sellers manage, optimize, and grow their businesses across multiple
+  channels from a single account. Vela supports Etsy, Shopify, eBay, and Faire, offering
+  bulk listing editing, AI-assisted listing creation and optimization, photo editing,
+  and multi-channel publishing for tens of thousands of sellers. A 500 Global portfolio
+  company that has raised $5.5M. Vela consumes the official APIs of the marketplaces
+  it supports but publishes no public API, developer portal, or machine-readable
+  surface of its own.'
 url: https://raw.githubusercontent.com/api-evangelist/vela-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://welcome.getvela.com/apple-icon.png
 tags:
 - Company
+- eCommerce
+- Sellers
+- Listings
+- Bulk Editing
+- Etsy
+- Shopify
+- eBay
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vela-labs-domain-security.yml
 - type: Website
   url: https://welcome.getvela.com
+- type: Pricing
+  url: https://welcome.getvela.com/pricing/
+- type: SignUp
+  url: https://app.getvela.com/auth/sign-up
+- type: Support
+  url: https://getvela.ai/help
+- type: PrivacyPolicy
+  url: https://getvela.ai/help/post/privacy-policy
+- type: Roadmap
+  url: https://getvela.com/community/wishlist
+- type: FAQ
+  url: https://www.getvela.com/community/faqs
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
