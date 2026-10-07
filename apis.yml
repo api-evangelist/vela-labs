@@ -69,6 +69,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/vela-labs-plans-pricing.yml
 - type: DomainSecurity
   url: security/vela-labs-domain-security.yml
 - type: Website
