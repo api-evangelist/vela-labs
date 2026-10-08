@@ -1,0 +1,76 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://welcome.getvela.com/pricing/
+sources:
+- https://welcome.getvela.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Pricing per shop per month, based on listing count and plan tier; 20% multi-shop discount; one-week
+  free trial. Prices shown appear to be the Lite column tiers.
+plan_count: 8
+currency: USD
+plans:
+- name: Vela Lite
+  price_text: $29.95 / Per shop Per month
+  price: 29.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 0 - 500 listings tier pricing; standard profiles 5
+- name: Vela Plus
+  price_text: $39.95 / Per shop Per month
+  price: 39.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: Unlimited standard profiles; AI features
+- name: 501 - 1K listings
+  price_text: $34.95
+  price: 34.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 501 - 1K listings
+- name: 1K - 2.5K listings
+  price_text: $39.95
+  price: 39.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 1K - 2.5K listings
+- name: 2.5K - 5K listings
+  price_text: $44.95
+  price: 44.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 2.5K - 5K listings
+- name: 5K - 7.5K listings
+  price_text: $49.95
+  price: 49.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 5K - 7.5K listings
+- name: 7.5K - 10K listings
+  price_text: $54.95
+  price: 54.95
+  currency: USD
+  period: month
+  unit: per shop
+  included_quota: 7.5K - 10K listings
+- name: 10K+ listings
+  price_text: Contact us
+  period: none
+  unit: per shop
+  included_quota: 10K+ listings
